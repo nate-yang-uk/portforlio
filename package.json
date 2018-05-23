@@ -1,0 +1,28 @@
+{
+  "name": "portforlio",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "npm": "^6.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nateice5/portforlio.git"
+  },
+  "author": "nate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nateice5/portforlio/issues"
+  },
+  "homepage": "https://github.com/nateice5/portforlio#readme"
+}

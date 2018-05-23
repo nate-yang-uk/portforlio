@@ -3,6 +3,12 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 //Enable Gulp to spin up a server 
 var browserSync = require('browser-sync').create();
+var useref = require('gulp-useref');
+var concat = require('gulp-concat');
+var concatcss = require('gulp-concat-css');
+var gulpIf = require('gulp-if');
+var uglify = require('gulp-uglify');
+var cssnano = require('gulp-cssnano');
 
 gulp.task('browserSync', function() {
   browserSync.init({
